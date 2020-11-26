@@ -27,7 +27,7 @@ class _LoginViewState extends State<LoginView> {
   @override
   void initState() {
     super.initState();
-    emailController = TextEditingController(text: 'moberas@moberas.com');
+    emailController = TextEditingController(text: 'moberas.dev@gmail.com');
     emailFocusNode = FocusNode();
     passwordController = TextEditingController(text: '123456');
     passwordFocusNode = FocusNode();
